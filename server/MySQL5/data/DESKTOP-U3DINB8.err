@@ -1,0 +1,477 @@
+2018-06-06 15:48:27 15368 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-06-06 15:48:27 15368 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-06-06 15:48:27 15368 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-06-06 15:48:27 15368 [Note] InnoDB: Memory barrier is not used
+2018-06-06 15:48:27 15368 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-06-06 15:48:27 15368 [Note] InnoDB: Not using CPU crc32 instructions
+2018-06-06 15:48:27 15368 [Note] InnoDB: Initializing buffer pool, size = 8.0M
+2018-06-06 15:48:27 15368 [Note] InnoDB: Completed initialization of buffer pool
+2018-06-06 15:48:27 15368 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-06-06 15:48:27 3c08  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2018-06-06 15:48:27 15368 [ERROR] InnoDB: Could not find a valid tablespace file for 'mysql/gtid_slave_pos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-06-06 15:48:27 15368 [ERROR] InnoDB: Tablespace open failed for '"mysql"."gtid_slave_pos"', ignored.
+2018-06-06 15:48:27 15368 [Warning] InnoDB: Resizing redo log from 2*3072 to 2*640 pages, LSN=1616799
+2018-06-06 15:48:27 15368 [Warning] InnoDB: Starting to delete and rewrite log files.
+2018-06-06 15:48:27 15368 [Note] InnoDB: Setting log file .\ib_logfile101 size to 10 MB
+2018-06-06 15:48:27 15368 [Note] InnoDB: Setting log file .\ib_logfile1 size to 10 MB
+2018-06-06 15:48:28 15368 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2018-06-06 15:48:28 15368 [Warning] InnoDB: New log files created, LSN=1616908
+2018-06-06 15:48:28 15368 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-06-06 15:48:28 15368 [Note] InnoDB: Waiting for purge to start
+2018-06-06 15:48:28 15368 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-74.0 started; log sequence number 1616799
+2018-06-06 15:48:28 9180 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-06-06 15:48:28 15368 [Note] Plugin 'FEEDBACK' is disabled.
+2018-06-06 15:48:28 15368 [Note] Server socket created on IP: '::'.
+2018-06-06 15:48:28 15368 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 15:48:28 15368 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-06-06 15:48:28 15368 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-06-06 15:48:28 9252 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+2018-06-06 15:48:28 15368 [Note] C:\AutoSet10\Server\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '10.1.9-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-06-06 15:54:16 14836 [ERROR] Incorrect definition of table mysql.proc: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVA
+2018-06-06 17:05:55 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:05:56 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:07:06 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:07:09 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:07:09 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:21:18 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:21:18 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:21:24 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:21:25 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:21:27 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:21:32 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:21:33 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:28:28 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-06 17:28:29 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:18:29 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:18:30 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:18:31 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:18:32 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:42:31 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:47:01 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:47:04 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:47:06 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:05 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:06 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:06 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:19 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:20 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:28 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:38 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:39 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:40 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:41 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:52:49 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:56:08 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:16 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:16 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:40 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:40 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:40 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:41 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:41 13868 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:42 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 19:57:42 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:17:19 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:17:20 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:17:20 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:17:22 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:21:37 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:41:16 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:45:00 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:45:01 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:45:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:45:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:45:07 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:45:07 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:43 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:44 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:44 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:52 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:53 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:59 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:59 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:48:59 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:03 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:11 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:11 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:11 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:13 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:19 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:22 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:24 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:24 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:44 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:44 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:45 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:45 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:46 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:49:46 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:50:12 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:50:13 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:50:57 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:50:57 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:05 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:06 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:06 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:17 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:18 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:18 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:21 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:22 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:24 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:51:24 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:11 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:12 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:12 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:47 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:47 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:47 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:47 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:50 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:50 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:52 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:53 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:55 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:55 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:55 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:58 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:58 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:52:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:53:00 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:53:01 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:48 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:49 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:49 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:50 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:53 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:54 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:55 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:56 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:55:57 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:56:19 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:56:19 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:00 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:00 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:14 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:15 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:17 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:18 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:20 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:20 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:21 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:22 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:23 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:24 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:25 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:25 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:26 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:28 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:29 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:29 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:30 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:31 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:33 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:57:33 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:58:36 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:58:36 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:58:37 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:58:38 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:58:40 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:58:40 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:46 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:46 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:47 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:48 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:53 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:53 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:54 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 20:59:58 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:00:01 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:00:03 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:00:05 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:00:08 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:00:09 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:00:23 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:00:23 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:35 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:38 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:39 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:40 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:42 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:01:42 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:07:01 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:07:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:07:03 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:07:03 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:07:48 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:07:49 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:08 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:09 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:22 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:23 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:23 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:28 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:29 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:45 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:45 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:45 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:56 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:08:56 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:02 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:03 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:16 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:16 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:50 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:09:50 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:10 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:11 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:14 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:17 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:18 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:25 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:37 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:42 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:44 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:44 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:45 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:10:47 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:12:47 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:12:48 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:12:55 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:12:56 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:12:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:12:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:13:02 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:13:02 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:16:16 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:16:18 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:16:18 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:16:28 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:16:29 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:17:45 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:17:46 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:19:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:19:03 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:37 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:45 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:47 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:49 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:50 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:51 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:52 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:56 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:58 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:20:58 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:21:06 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:21:11 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:21:19 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:21:35 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:21:44 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:02 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:04 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:09 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:09 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:15 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:16 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:16 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:57 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:58 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:22:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:09 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:37 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:41 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:43 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:45 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:46 13172 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-06-07 21:23:46 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:46 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:51 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:23:53 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:24:13 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:24:13 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:24:13 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:24:13 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:24:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:24:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:26 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:26 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:26 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:26 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:27 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:48 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:49 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:49 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:51 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:51 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:53 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:27:53 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:28:33 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:28:33 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:28:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:28:35 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:28:38 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:28:38 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:08 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:08 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:18 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:19 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:19 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:29:23 13172 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:30:01 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:30:01 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:30:10 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:30:10 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:42:58 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:51:35 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:51:38 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:54:05 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:54:09 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:54:11 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 21:54:14 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:23:55 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:23:57 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:23:57 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:25:11 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:25:12 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:25:19 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:25:20 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:26:31 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:26:31 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:26:33 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:26:33 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:38:55 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:38:56 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:38:58 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:38:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:39:00 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 22:39:01 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 23:02:56 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 23:04:32 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 23:04:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-07 23:04:36 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:31 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:56 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:57 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:57 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:58 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:35:58 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:04 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:04 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:04 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:10 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:15 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:19 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:39 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:40 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:54 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:54 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:36:59 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:01 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:01 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:04 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:05 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:05 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:07 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:27 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:32 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:34 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:37 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:44 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:37:44 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:38:25 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:38:25 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:38:36 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:38:41 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:41:45 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:41:47 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:41:53 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:41:53 17612 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:00 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:00 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:06 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:06 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:14 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:14 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:17 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:17 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:25 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:42:26 15956 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:44:00 16828 [Note] C:\AutoSet10\Server\MySQL5\bin\mysqld.exe: Normal shutdown
+
+2018-06-08  3:44:00 104 [Note] InnoDB: FTS optimize thread exiting.
+2018-06-08  3:44:00 16828 [Note] InnoDB: Starting shutdown...
+2018-06-08  3:44:01 16828 [Note] InnoDB: Shutdown completed; log sequence number 3268775
+2018-06-08  3:44:01 16828 [Note] C:\AutoSet10\Server\MySQL5\bin\mysqld.exe: Shutdown complete
+
+2018-06-08  3:44:08 7112 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-06-08  3:44:08 7112 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-06-08  3:44:08 7112 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-06-08  3:44:08 7112 [Note] InnoDB: Memory barrier is not used
+2018-06-08  3:44:08 7112 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-06-08  3:44:08 7112 [Note] InnoDB: Not using CPU crc32 instructions
+2018-06-08  3:44:08 7112 [Note] InnoDB: Initializing buffer pool, size = 8.0M
+2018-06-08  3:44:08 7112 [Note] InnoDB: Completed initialization of buffer pool
+2018-06-08  3:44:08 7112 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-06-08 03:44:08 1bc8  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2018-06-08  3:44:08 7112 [ERROR] InnoDB: Could not find a valid tablespace file for 'mysql/gtid_slave_pos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2018-06-08  3:44:08 7112 [ERROR] InnoDB: Tablespace open failed for '"mysql"."gtid_slave_pos"', ignored.
+2018-06-08  3:44:08 7112 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-06-08  3:44:08 7112 [Note] InnoDB: Waiting for purge to start
+2018-06-08  3:44:08 7112 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-74.0 started; log sequence number 3268775
+2018-06-08  3:44:08 19472 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-06-08  3:44:08 7112 [Note] Plugin 'FEEDBACK' is disabled.
+2018-06-08  3:44:08 7112 [Note] Server socket created on IP: '::'.
+2018-06-08  3:44:08 7112 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:44:08 7112 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-06-08  3:44:08 7112 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-06-08  3:44:08 11676 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+2018-06-08  3:44:08 7112 [Note] C:\AutoSet10\Server\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '10.1.9-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-06-08  3:46:13 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:46:14 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:46:14 4660 [ERROR] Incorrect definition of table mysql.proc: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVA
+2018-06-08  3:46:14 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:49:33 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:49:34 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  3:49:34 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  4:03:51 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  4:03:52 4660 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  4:27:49 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  4:27:54 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08  4:27:57 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08 10:41:12 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08 10:41:15 15052 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08 10:41:15 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08 10:41:15 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08 10:41:22 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08 10:41:22 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2018-06-08 10:41:23 19640 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
